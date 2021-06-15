@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/calle"
+    tools:context=".Adaptadores.MainActivity2">
+
+    <TextView
+        android:id="@+id/tex"
+        android:layout_width="318dp"
+        android:layout_height="215dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="280dp"
+        android:background="#8c111122"
+        android:gravity="center_horizontal"
+        android:text="Destinos Turisticos
+                          Restaurantes
+                         Hoteles
+                        Agencias y más...."
+        android:textColor="#EDEDED"
+        android:textSize="35dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
